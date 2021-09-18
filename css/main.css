@@ -27,3 +27,36 @@ body {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
 }
+:root{
+    --primary-color: #458FF6;
+    --primary-color-light: #5B9BF3;
+    --secondary-color-dark: #5A98F2;
+    --secondary-color-light: #67C3F3;
+    --text-color: #7D7987;
+    --primary-font : "Mulish", sans-serif;
+}
+
+/* Header */
+
+/* Navbar */
+.navbar-nav .nav-item{
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+.navbar-nav .nav-item .active{
+    color: var(--primary-color) !important;
+}
+.navbar-nav .nav-link{
+    color: var(--text-color) !important;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    outline : none;
+    border: none;
+    box-shadow: none !important;
+}
+/* Navbar End */
+
+/* Header End */
