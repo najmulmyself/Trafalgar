@@ -165,4 +165,14 @@ p {
 .card p {
   font-size: 14px;
 }
+
 /* Card Section End */
+.caro-team-img{
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* Caroursel Section */
+
+/* Caroursel Section End */
